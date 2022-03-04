@@ -1,9 +1,14 @@
-const express = require("express");
-const morgan = require("morgan");
-const cors = require("cors");
-const app = express();
-const path = require("path");
+import express from "express";
+import morgan from "morgan";
+import cors from "cors";
+import path from "path";
 
+// const express = require("express");
+// const morgan = require("morgan");
+// const cors = require("cors");
+// const path = require("path");
+
+const app = express();
 app.use(morgan("tiny"));
 app.use(cors());
 app.use(express.json());
