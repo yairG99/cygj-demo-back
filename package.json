@@ -1,0 +1,20 @@
+{
+  "name": "cygj-demo-back",
+  "version": "1.0.0",
+  "description": "Backend Proyecto Vue.js - NodeJS - Mongo - Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yairG99/cygj-demo-back.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yairG99/cygj-demo-back/issues"
+  },
+  "homepage": "https://github.com/yairG99/cygj-demo-back#readme"
+}
