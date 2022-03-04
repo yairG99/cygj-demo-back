@@ -4,6 +4,7 @@
   "description": "Backend Proyecto Vue.js - NodeJS - Mongo - Express",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/yairG99/cygj-demo-back/issues"
   },
-  "homepage": "https://github.com/yairG99/cygj-demo-back#readme"
+  "homepage": "https://github.com/yairG99/cygj-demo-back#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "morgan": "^1.10.0"
+  }
 }
